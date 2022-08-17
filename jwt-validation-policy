@@ -1,0 +1,19 @@
+<policies>
+    <inbound>
+        <base />
+        <validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="Pamir Unauthorized">
+            <issuer-signing-keys>
+                <key>123412341234123412341234</key>
+            </issuer-signing-keys>
+        </validate-jwt>
+    </inbound>
+    <backend>
+        <base />
+    </backend>
+    <outbound>
+        <base />
+    </outbound>
+    <on-error>
+        <base />
+    </on-error>
+</policies>
