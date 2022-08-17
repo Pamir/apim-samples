@@ -5,6 +5,11 @@
             <issuer-signing-keys>
                 <key>123412341234123412341234</key>
             </issuer-signing-keys>
+            <required-claims>
+                <claim name="admin" match="any">
+                    <value>true</value>
+                </claim>
+            </required-claims>
         </validate-jwt>
     </inbound>
     <backend>
