@@ -1,0 +1,3 @@
+curl <apim-endpoint>
+   -H "Accept: application/json"
+   -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImV4cCI6MTY2MzMyMTkzNn0.txen90zoXQrUH16dxoTi2yR8pUapglWaPPAxQi3nE9Y"
